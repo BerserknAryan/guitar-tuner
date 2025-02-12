@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodebuddyPersistentProjectState">
+    <option name="promptHistory">
+      <list>
+        <option value="Console/log output:&#10;&#10;```&#10;[CRITICAL] [Window      ] Unable to find any valuable Window provider. Please enable debug logging (e.g. add -d if running from the command line, or change the log level in the config) and re-run your app to identify potential causes&#10;sdl2 - ImportError: DLL load failed: The specified module could not be found.&#10;  File &quot;C:\Users\gtaws\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\kivy\core\__init__.py&quot;, line 63, in core_select_lib&#10;    fromlist=[modulename], level=0)&#10;  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 1086, in __import__&#10;  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 1006, in _gcd_import&#10;  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 983, in _find_and_load&#10;  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 967, in _find_and_load_unlocked&#10;  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 677, in _load_unlocked&#10;  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 728, in exec_module&#10;  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 219, in _call_with_frames_removed&#10;  File &quot;C:\Users\gtaws\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\kivy\core\window\window_sdl2.py&quot;, line 28, in &lt;module&gt;&#10;    from kivy.core.window._window_sdl2 import _WindowSDL2Storage&#10;&#10;[CRITICAL] [App         ] Unable to get a Window, abort.&#10;&#10;Process finished with exit code 1&#10;```&#10;&#10;Please explain the above snippet" />
+      </list>
+    </option>
+  </component>
+</project>

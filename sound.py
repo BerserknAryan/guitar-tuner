@@ -37,20 +37,6 @@ def display_chord_buttons(self):
 current_stream = None  # Global variable to keep track of the current sound stream
 
 
-def play_tone(frequency, duration=1.0):
-    global current_stream
-    tone = generate_tone(frequency, duration)
-    current_stream = sd.play(tone, samplerate=44100)  # Play the sound
-    sd.wait()  # Wait until the sound has finished playing
-
-
-def stop_tone():
-    global current_stream
-    if current_stream is not None:
-        sd.stop()  # Stop the currently playing sound
-        current_stream = None  # Reset the current stream
-
-
 def return_to_main_menu(self):
     self.root.clear_widgets()  # Clear the current widgets
     self.root.add_widget(self.main_menu())  # Add the main menu back
